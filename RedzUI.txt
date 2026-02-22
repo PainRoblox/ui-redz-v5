@@ -1171,7 +1171,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "rbxassetid://89563346209452"
+ImageButton1.Image = "rbxassetid://119980166507719"
 local CoreGui = game:GetService("CoreGui")
 ImageButton1.MouseButton1Down:connect(function()
 CoreGui["redz Library V5"].Enabled = not CoreGui["redz Library V5"].Enabled
@@ -1462,7 +1462,7 @@ end
 
 function redzlib:MakeWindow(Configs)
 	local WTitle = Configs[1] or Configs.Name or Configs.Title or "redz Library V5"
-	local WMiniText = Configs[2] or Configs.SubTitle or "By Omg"
+	local WMiniText = Configs[2] or Configs.SubTitle or "By Ok"
 	
 	Settings.ScriptFile = Configs[3] or Configs.SaveFolder or false
 	
